@@ -5,13 +5,13 @@ Usage of Hibernate Validator
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/7e7cab85337b49d7814a9cf7a0f3c50e)](https://www.codacy.com/app/MasterOfTheU/object-model-validation?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=MasterOfTheU/object-model-validation&amp;utm_campaign=Badge_Grade)
 [![Codacy Badge](https://api.codacy.com/project/badge/Coverage/7e7cab85337b49d7814a9cf7a0f3c50e)](https://www.codacy.com/app/MasterOfTheU/object-model-validation?utm_source=github.com&utm_medium=referral&utm_content=MasterOfTheU/object-model-validation&utm_campaign=Badge_Coverage)
 
-##Person object model
+## Person object model
 This model has 10 fields of different types. We have to use hibernate validator annotations to check the validity of those fields.
-<!-- Insert uml -->
+![objmodel](https://user-images.githubusercontent.com/15348166/32693104-831422cc-c72d-11e7-803f-dceff1a1284a.PNG)
 
 ### Object examples
 Created objects were converted to JSON format to provide a better understanding of model:
-<!-- Insert pics -->
+![objects](https://user-images.githubusercontent.com/15348166/32693103-8123fe42-c72d-11e7-8d7c-e1cf8130e434.png)
 
 ### Dependencies
 <ol>
