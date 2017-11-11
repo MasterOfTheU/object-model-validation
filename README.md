@@ -1,2 +1,3 @@
-# object-model-validation
-MPT LAB 7: Usage of Hibernate Validator
+Usage of Hibernate Validator
+
+[![Build Status](https://travis-ci.org/MasterOfTheU/object-model-validation.svg?branch=master)](https://travis-ci.org/MasterOfTheU/object-model-validation)
