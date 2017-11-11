@@ -1,16 +1,16 @@
 package hibernatevalidation;
 
-import lombok.Data;
+/*import lombok.Data;
 import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
+import lombok.NoArgsConstructor;*/
 
 import javax.validation.constraints.Max;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Positive;
 
-@Data
+/*@Data
 @NoArgsConstructor
-@AllArgsConstructor
+@AllArgsConstructor*/
 public class Writer implements Profession {
 
     @NotNull @Positive @Max(100000000) private int salary;
@@ -18,9 +18,50 @@ public class Writer implements Profession {
     @NotNull private String genre;
     @NotNull private String inspiredBy;
 
+    public Writer() {
+    }
+
+    public Writer(int salary, int yearsOfExperience, String genre, String inspiredBy) {
+        this.salary = salary;
+        this.yearsOfExperience = yearsOfExperience;
+        this.genre = genre;
+        this.inspiredBy = inspiredBy;
+    }
     @Override
     public void printProfession() {
         System.out.printf("This person works as %s.\n", getClass().getSimpleName());
+    }
+
+    public int getSalary() {
+        return this.salary;
+    }
+
+    public int getYearsOfExperience() {
+        return this.yearsOfExperience;
+    }
+
+    public String getGenre() {
+        return this.genre;
+    }
+
+    public String getInspiredBy() {
+        return this.inspiredBy;
+    }
+
+    public void setSalary(int salary) {
+        this.salary = salary;
+    }
+
+    public void setYearsOfExperience(int yearsOfExperience) {
+        this.yearsOfExperience = yearsOfExperience;
+    }
+
+    public void setGenre(String genre) {
+        this.genre = genre;
+    }
+
+    public void setInspiredBy(String inspiredBy) {
+        this.inspiredBy = inspiredBy;
     }
 
 }

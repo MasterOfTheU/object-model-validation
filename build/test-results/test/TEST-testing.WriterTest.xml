@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testing.WriterTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2017-11-11T20:29:43" hostname="brain" time="0.026">
+<testsuite name="testing.WriterTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2017-11-11T21:14:08" hostname="brain" time="0.014">
   <properties/>
-  <testcase name="salaryOversize" classname="testing.WriterTest" time="0.018"/>
+  <testcase name="salaryOversize" classname="testing.WriterTest" time="0.009"/>
   <testcase name="setInspiredBy" classname="testing.WriterTest" time="0.0"/>
   <testcase name="genreIsNull" classname="testing.WriterTest" time="0.001"/>
   <testcase name="printProfession" classname="testing.WriterTest" time="0.0"/>
   <testcase name="experienceIsNegative" classname="testing.WriterTest" time="0.001"/>
-  <testcase name="salaryIsZero" classname="testing.WriterTest" time="0.001"/>
-  <testcase name="experienceOversize" classname="testing.WriterTest" time="0.003"/>
+  <testcase name="salaryIsZero" classname="testing.WriterTest" time="0.0"/>
+  <testcase name="experienceOversize" classname="testing.WriterTest" time="0.0"/>
   <testcase name="setSalary" classname="testing.WriterTest" time="0.0"/>
   <testcase name="getSalary" classname="testing.WriterTest" time="0.0"/>
   <testcase name="setYearsOfExperience" classname="testing.WriterTest" time="0.0"/>
-  <testcase name="setGenre" classname="testing.WriterTest" time="0.0"/>
+  <testcase name="setGenre" classname="testing.WriterTest" time="0.001"/>
   <testcase name="salaryIsNegative" classname="testing.WriterTest" time="0.0"/>
   <testcase name="getYearsOfExperience" classname="testing.WriterTest" time="0.0"/>
   <testcase name="getInspiredBy" classname="testing.WriterTest" time="0.0"/>
-  <testcase name="fieldInspiredByIsNull" classname="testing.WriterTest" time="0.0"/>
+  <testcase name="fieldInspiredByIsNull" classname="testing.WriterTest" time="0.001"/>
   <testcase name="getGenre" classname="testing.WriterTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

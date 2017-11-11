@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testing.MetricsTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-11-11T20:29:42" hostname="brain" time="0.027">
+<testsuite name="testing.MetricsTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-11-11T21:14:07" hostname="brain" time="0.034">
   <properties/>
-  <testcase name="testPrintMethodName" classname="testing.MetricsTest" time="0.001"/>
-  <testcase name="testGatherPerformance" classname="testing.MetricsTest" time="0.026"/>
-  <system-out><![CDATA[Used memory in megabytes: 2.173920 
-The runtime of testGatherPerformance() is 0 ms
+  <testcase name="testPrintMethodName" classname="testing.MetricsTest" time="0.0"/>
+  <testcase name="testGatherPerformance" classname="testing.MetricsTest" time="0.034"/>
+  <system-out><![CDATA[Used memory in megabytes: 2.173599 
+The runtime of testGatherPerformance() is 1 ms
 
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>

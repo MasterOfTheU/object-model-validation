@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testing.ProgrammerTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2017-11-11T20:29:43" hostname="brain" time="0.021">
+<testsuite name="testing.ProgrammerTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2017-11-11T21:14:08" hostname="brain" time="0.019">
   <properties/>
-  <testcase name="salaryOversize" classname="testing.ProgrammerTest" time="0.016"/>
+  <testcase name="salaryOversize" classname="testing.ProgrammerTest" time="0.012"/>
   <testcase name="printProfession" classname="testing.ProgrammerTest" time="0.0"/>
   <testcase name="experienceIsNegative" classname="testing.ProgrammerTest" time="0.001"/>
   <testcase name="setSpecialization" classname="testing.ProgrammerTest" time="0.0"/>
   <testcase name="languageIsNull" classname="testing.ProgrammerTest" time="0.001"/>
-  <testcase name="salaryIsZero" classname="testing.ProgrammerTest" time="0.0"/>
-  <testcase name="experienceOversize" classname="testing.ProgrammerTest" time="0.001"/>
+  <testcase name="salaryIsZero" classname="testing.ProgrammerTest" time="0.001"/>
+  <testcase name="experienceOversize" classname="testing.ProgrammerTest" time="0.0"/>
   <testcase name="getSpecialization" classname="testing.ProgrammerTest" time="0.0"/>
   <testcase name="setSalary" classname="testing.ProgrammerTest" time="0.0"/>
   <testcase name="getSalary" classname="testing.ProgrammerTest" time="0.0"/>
   <testcase name="setYearsOfExperience" classname="testing.ProgrammerTest" time="0.0"/>
-  <testcase name="specializationIsNull" classname="testing.ProgrammerTest" time="0.001"/>
-  <testcase name="salaryIsNegative" classname="testing.ProgrammerTest" time="0.0"/>
-  <testcase name="getYearsOfExperience" classname="testing.ProgrammerTest" time="0.001"/>
+  <testcase name="specializationIsNull" classname="testing.ProgrammerTest" time="0.0"/>
+  <testcase name="salaryIsNegative" classname="testing.ProgrammerTest" time="0.001"/>
+  <testcase name="getYearsOfExperience" classname="testing.ProgrammerTest" time="0.0"/>
   <testcase name="getMainProgrammingLanguage" classname="testing.ProgrammerTest" time="0.0"/>
   <testcase name="setMainProgrammingLanguage" classname="testing.ProgrammerTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

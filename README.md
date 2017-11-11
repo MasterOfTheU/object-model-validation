@@ -15,7 +15,6 @@ Created objects were converted to JSON format to provide a better understanding 
 
 ## Dependencies
 <ol>
-    <li><a href="https://projectlombok.org/">Lombok v1.16.18</a></li>
     <li><a href="https://mvnrepository.com/artifact/com.google.code.gson/gson/2.8.2">Gson v2.8.2</a></li>
     <li><a href="https://mvnrepository.com/artifact/org.hibernate/hibernate-validator/6.0.4.Final">Hibernate Validator</a></li>
     <li><a href="https://mvnrepository.com/artifact/org.hibernate/hibernate-validator-cdi/6.0.4.Final">Hibernate Validator CDI</a></li>

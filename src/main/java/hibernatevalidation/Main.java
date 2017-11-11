@@ -9,6 +9,7 @@ public class Main {
     public static void main(String[] args) {
         ArrayList<Person> personList = createPersonObjects();
         personList.forEach(PersonCreator::convertObjectToJSON);
+
     }
 
     public static ArrayList<Person> createPersonObjects() {
