@@ -36,8 +36,19 @@ public class Main {
                     }
                 }, new double[]{ 133.33, 104.05, 155.25 }),
                 createPersonHobbies(new String[]{"Coding", "Playing with cat", "Bowling"}));
+
+        Person person3 = personCreator.createPerson("Tim Melvin", 20, "+38 3389", "ttt@gmail.com","Step Up","Madrid", "West 4f", new Student("Technical University of Madrid", 1500, 2, "Civil Engineering"),
+                createWeightTable(new ArrayList<String>(){
+                    {
+                        add("2005.10.015");
+                        add("2011.11.02");
+                        add("2012.12.18");
+                    }
+                }, new double[]{ 99.33, 105.05, 125.25 }),
+                createPersonHobbies(new String[]{"Drawing", "Music listening"}));
         personList.add(person);
         personList.add(person2);
+        personList.add(person3);
 
         return personList;
     }
