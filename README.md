@@ -1,3 +1,23 @@
 Usage of Hibernate Validator
 
 [![Build Status](https://travis-ci.org/MasterOfTheU/object-model-validation.svg?branch=master)](https://travis-ci.org/MasterOfTheU/object-model-validation)
+[![codecov](https://codecov.io/gh/MasterOfTheU/object-model-validation/branch/master/graph/badge.svg)](https://codecov.io/gh/MasterOfTheU/object-model-validation)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/7e7cab85337b49d7814a9cf7a0f3c50e)](https://www.codacy.com/app/MasterOfTheU/object-model-validation?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=MasterOfTheU/object-model-validation&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Coverage/7e7cab85337b49d7814a9cf7a0f3c50e)](https://www.codacy.com/app/MasterOfTheU/object-model-validation?utm_source=github.com&utm_medium=referral&utm_content=MasterOfTheU/object-model-validation&utm_campaign=Badge_Coverage)
+
+##Person object model
+This model has 10 fields of different types. We have to use hibernate validator annotations to check the validity of those fields.
+<!-- Insert uml -->
+
+### Object examples
+Created objects were converted to JSON format to provide a better understanding of model:
+<!-- Insert pics -->
+
+### Dependencies
+<ol>
+    <li><a href="https://projectlombok.org/">Lombok v1.16.18</a></li>
+    <li><a href="https://mvnrepository.com/artifact/com.google.code.gson/gson/2.8.2">Gson v2.8.2</a></li>
+    <li><a href="https://mvnrepository.com/artifact/org.hibernate/hibernate-validator/6.0.4.Final">Hibernate Validator</a></li>
+    <li><a href="https://mvnrepository.com/artifact/org.hibernate/hibernate-validator-cdi/6.0.4.Final">Hibernate Validator CDI</a></li>
+    <li><a href="https://mvnrepository.com/artifact/org.glassfish/javax.el/3.0.1-b08">Unified Expression Language v3.0.1-b08</a></li>
+</ol>
