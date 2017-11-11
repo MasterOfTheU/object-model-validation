@@ -1,16 +1,9 @@
 package hibernatevalidation;
 
-/*import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;*/
-
 import javax.validation.constraints.Max;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Positive;
 
-/*@Data
-@AllArgsConstructor
-@NoArgsConstructor*/
 public class Programmer implements Profession {
 
     @NotNull @Positive @Max(100000000) private int salary;
@@ -26,6 +19,15 @@ public class Programmer implements Profession {
         this.yearsOfExperience = yearsOfExperience;
         this.specialization = specialization;
         this.mainProgrammingLanguage = mainProgrammingLanguage;
+    }
+
+    @Override
+    public String toString(){
+        return getClass().getSimpleName().toUpperCase() + " OBJECT INFO\n "
+                + "salary: " + getSalary()
+                + " yearsOfExperience: " + getYearsOfExperience()
+                + " specialization: " + getSpecialization()
+                + " mainProgrammingLanguage: : " + getMainProgrammingLanguage();
     }
 
     @Override

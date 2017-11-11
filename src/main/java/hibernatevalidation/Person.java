@@ -2,14 +2,10 @@ package hibernatevalidation;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-//import lombok.*;
 
 import javax.validation.Valid;
 import javax.validation.constraints.*;
 
-/*@Data
-@NoArgsConstructor
-@AllArgsConstructor*/
 public class Person {
 
     @NotNull private String fullName;
@@ -38,6 +34,21 @@ public class Person {
         this.profession = profession;
         this.weightTable = weightTable;
         this.hobbies = hobbies;
+    }
+
+    @Override
+    public String toString(){
+        return getClass().getSimpleName().toUpperCase() + " OBJECT INFO\n "
+                + "fullName: " + getFullName()
+                + " age: " + getAge()
+                + " phone: " + getPhone()
+                + " email: : " + getEmail()
+                + " favouriteMovie: " + getFavouriteMovie()
+                + " cityName: " + getCityName()
+                + " streetName: " + getStreetName()
+                + " profession: " + getProfession()
+                + " weightTable: " + getWeightTable()
+                + " hobbies: " + getHobbies();
     }
 
     public String getFullName() {

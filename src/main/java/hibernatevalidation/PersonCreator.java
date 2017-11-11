@@ -24,6 +24,18 @@ public class PersonCreator {
         String methodName = Thread.currentThread().getStackTrace()[1].getMethodName();
 
         Person p = new Person(fullName,age,phone,email,favMovie,city,street,profession,weightTable,hobbies);
+        p.setFullName(fullName);
+        p.setAge(age);
+        p.setPhone(phone);
+        p.setEmail(email);
+        p.setFavouriteMovie(favMovie);
+        p.setCityName(city);
+        p.setStreetName(street);
+        p.setProfession(profession);
+        p.setWeightTable(weightTable);
+        p.setHobbies(hobbies);
+
+        System.out.println(p.toString());
 
         printMethodName(methodName);
         stopMetrics();
