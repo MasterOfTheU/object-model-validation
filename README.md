@@ -11,7 +11,7 @@ This model has 10 fields of different types. We have to use hibernate validator 
 
 ## Object examples
 Created objects were converted to JSON format to provide a better understanding of model:
-![objects](https://user-images.githubusercontent.com/15348166/32693103-8123fe42-c72d-11e7-8d7c-e1cf8130e434.png)
+![objects](https://user-images.githubusercontent.com/15348166/32693965-2262df80-c73d-11e7-97bb-647c9dd69b99.png)
 
 ## Dependencies
 <ol>
