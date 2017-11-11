@@ -7,14 +7,14 @@ public class Metrics {
     /**
      * Sets start time of method execution.
      */
-    static void startMetrics(){
+    protected static void startMetrics(){
         startTime = System.currentTimeMillis();
     }
 
     /**
      * Sets stop time of method execution.
      */
-    static void stopMetrics(){
+    protected static void stopMetrics(){
         stopTime = System.currentTimeMillis();
     }
 
@@ -29,7 +29,7 @@ public class Metrics {
      * Prints the name of recently executed method.
      * @param methodName Gets the name of the executed method.
      */
-    static void printMethodName(String methodName) {
+    protected static void printMethodName(String methodName) {
         System.out.printf("%s() has executed.\n", methodName);
     }
 

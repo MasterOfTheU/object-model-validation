@@ -15,7 +15,7 @@ import static org.junit.Assert.*;
 public class PersonCreatorTest {
 
     private PersonCreator personCreator;
-    Person person;
+    private Person person;
 
     @Before
     public void setUp(){
