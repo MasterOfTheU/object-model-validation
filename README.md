@@ -1,4 +1,4 @@
-Usage of Hibernate Validator
+# Usage of Hibernate Validator
 
 [![Build Status](https://travis-ci.org/MasterOfTheU/object-model-validation.svg?branch=master)](https://travis-ci.org/MasterOfTheU/object-model-validation)
 [![codecov](https://codecov.io/gh/MasterOfTheU/object-model-validation/branch/master/graph/badge.svg)](https://codecov.io/gh/MasterOfTheU/object-model-validation)
@@ -9,11 +9,11 @@ Usage of Hibernate Validator
 This model has 10 fields of different types. We have to use hibernate validator annotations to check the validity of those fields.
 ![objmodel](https://user-images.githubusercontent.com/15348166/32693104-831422cc-c72d-11e7-803f-dceff1a1284a.PNG)
 
-### Object examples
+## Object examples
 Created objects were converted to JSON format to provide a better understanding of model:
 ![objects](https://user-images.githubusercontent.com/15348166/32693103-8123fe42-c72d-11e7-8d7c-e1cf8130e434.png)
 
-### Dependencies
+## Dependencies
 <ol>
     <li><a href="https://projectlombok.org/">Lombok v1.16.18</a></li>
     <li><a href="https://mvnrepository.com/artifact/com.google.code.gson/gson/2.8.2">Gson v2.8.2</a></li>
