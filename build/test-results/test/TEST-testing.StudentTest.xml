@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testing.StudentTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2017-11-11T20:29:43" hostname="brain" time="0.036">
+  <properties/>
+  <testcase name="getCourseYear" classname="testing.StudentTest" time="0.002"/>
+  <testcase name="courseYearIsNegative" classname="testing.StudentTest" time="0.023"/>
+  <testcase name="printProfession" classname="testing.StudentTest" time="0.0"/>
+  <testcase name="scholarshipIsNegative" classname="testing.StudentTest" time="0.001"/>
+  <testcase name="courseYearIsZero" classname="testing.StudentTest" time="0.0"/>
+  <testcase name="setCourseYear" classname="testing.StudentTest" time="0.001"/>
+  <testcase name="universityIsNull" classname="testing.StudentTest" time="0.001"/>
+  <testcase name="setUniversityName" classname="testing.StudentTest" time="0.001"/>
+  <testcase name="courseYearOversize" classname="testing.StudentTest" time="0.001"/>
+  <testcase name="scholarshipOversize" classname="testing.StudentTest" time="0.0"/>
+  <testcase name="setSpecialization" classname="testing.StudentTest" time="0.0"/>
+  <testcase name="scholarshipIsZero" classname="testing.StudentTest" time="0.001"/>
+  <testcase name="getUniversityName" classname="testing.StudentTest" time="0.0"/>
+  <testcase name="setScholarship" classname="testing.StudentTest" time="0.0"/>
+  <testcase name="getSpecialization" classname="testing.StudentTest" time="0.0"/>
+  <testcase name="specializationIsNull" classname="testing.StudentTest" time="0.0"/>
+  <testcase name="getScholarship" classname="testing.StudentTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

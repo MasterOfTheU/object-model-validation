@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testing.PersonCreatorTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2017-11-11T20:29:42" hostname="brain" time="0.168">
+  <properties/>
+  <testcase name="testCreatePerson" classname="testing.PersonCreatorTest" time="0.031"/>
+  <testcase name="testConvertObjectToJSON" classname="testing.PersonCreatorTest" time="0.117"/>
+  <testcase name="testCreatePersonHobbies" classname="testing.PersonCreatorTest" time="0.0"/>
+  <testcase name="testCreateWeightTable" classname="testing.PersonCreatorTest" time="0.02"/>
+  <system-out><![CDATA[createPerson() has executed.
+Used memory in megabytes: 2.183678 
+The runtime of createPerson() is 1 ms
+
+null
+convertObjectToJSON() has executed.
+Used memory in megabytes: 3.617355 
+The runtime of convertObjectToJSON() is 89 ms
+
+createWeightTable() has executed.
+Used memory in megabytes: 2.266075 
+The runtime of createWeightTable() is 0 ms
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
