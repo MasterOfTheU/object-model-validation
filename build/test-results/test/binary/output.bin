@@ -1,0 +1,16 @@
+"createWeightTable() has executed.
+$Used memory in megabytes: 2.669807 
++The runtime of createWeightTable() is 1 ms
+
+createPerson() has executed.
+$Used memory in megabytes: 2.673470 
+&The runtime of createPerson() is 5 ms
+
+"createWeightTable() has executed.
+$Used memory in megabytes: 2.651970 
++The runtime of createWeightTable() is 0 ms
+
+createPerson() has executed.
+$Used memory in megabytes: 2.171753 
+&The runtime of createPerson() is 1 ms
+

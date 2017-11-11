@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testing.MainTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-11-11T19:10:33" hostname="brain" time="0.156">
+  <properties/>
+  <testcase name="testCreatePersonObjects" classname="testing.MainTest" time="0.156"/>
+  <system-out><![CDATA[createWeightTable() has executed.
+Used memory in megabytes: 2.669807 
+The runtime of createWeightTable() is 1 ms
+
+createPerson() has executed.
+Used memory in megabytes: 2.673470 
+The runtime of createPerson() is 5 ms
+
+createWeightTable() has executed.
+Used memory in megabytes: 2.651970 
+The runtime of createWeightTable() is 0 ms
+
+createPerson() has executed.
+Used memory in megabytes: 2.171753 
+The runtime of createPerson() is 1 ms
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
