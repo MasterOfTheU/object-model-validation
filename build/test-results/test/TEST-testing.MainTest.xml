@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testing.MainTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-11-11T21:14:07" hostname="brain" time="0.1">
+<testsuite name="testing.MainTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-11-11T21:42:52" hostname="brain" time="0.148">
   <properties/>
-  <testcase name="testCreatePersonObjects" classname="testing.MainTest" time="0.1"/>
+  <testcase name="testCreatePersonObjects" classname="testing.MainTest" time="0.148"/>
   <system-out><![CDATA[createWeightTable() has executed.
-Used memory in megabytes: 2.655441 
-The runtime of createWeightTable() is 0 ms
+Used memory in megabytes: 3.615547 
+The runtime of createWeightTable() is 2 ms
 
+PERSON OBJECT INFO
+ fullName: Tomas Christen age: 30 phone: +232 4444 email: : tchr@gmail.com favouriteMovie: Lost in Translation cityName: New York streetName: Abbey Road 5a/2 profession: WRITER OBJECT INFO
+ salary: 10000 yearsOfExperience: 5 genre: novelist inspiredBy: : John Jackson weightTable: {2011.11.02=114.05, 2009.02.02=124.33, 2011.11.18=113.25} hobbies: [Playing piano, Cooking, Drawing]
 createPerson() has executed.
-Used memory in megabytes: 2.165901 
-The runtime of createPerson() is 1 ms
+Used memory in megabytes: 2.167099 
+The runtime of createPerson() is 4 ms
 
 createWeightTable() has executed.
-Used memory in megabytes: 2.647743 
+Used memory in megabytes: 2.169182 
 The runtime of createWeightTable() is 1 ms
 
+PERSON OBJECT INFO
+ fullName: Nick Macklow age: 20 phone: +277 4520 email: : nnnnnn@gmail.com favouriteMovie: Titanic cityName: L.A streetName: West 4f profession: PROGRAMMER OBJECT INFO
+ salary: 15000 yearsOfExperience: 3 specialization: Python dev mainProgrammingLanguage: : Python weightTable: {2011.11.02=104.05, 2012.12.18=155.25, 2008.02.05=133.33} hobbies: [Coding, Playing with cat, Bowling]
 createPerson() has executed.
-Used memory in megabytes: 2.167496 
+Used memory in megabytes: 2.169090 
 The runtime of createPerson() is 1 ms
 
 ]]></system-out>

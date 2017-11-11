@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testing.StudentTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2017-11-11T21:14:08" hostname="brain" time="0.022">
+<testsuite name="testing.StudentTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2017-11-11T21:42:54" hostname="brain" time="0.05">
   <properties/>
   <testcase name="getCourseYear" classname="testing.StudentTest" time="0.001"/>
-  <testcase name="courseYearIsNegative" classname="testing.StudentTest" time="0.015"/>
+  <testcase name="courseYearIsNegative" classname="testing.StudentTest" time="0.013"/>
   <testcase name="printProfession" classname="testing.StudentTest" time="0.0"/>
   <testcase name="scholarshipIsNegative" classname="testing.StudentTest" time="0.001"/>
   <testcase name="courseYearIsZero" classname="testing.StudentTest" time="0.0"/>
-  <testcase name="setCourseYear" classname="testing.StudentTest" time="0.0"/>
-  <testcase name="universityIsNull" classname="testing.StudentTest" time="0.0"/>
-  <testcase name="setUniversityName" classname="testing.StudentTest" time="0.001"/>
-  <testcase name="courseYearOversize" classname="testing.StudentTest" time="0.0"/>
-  <testcase name="scholarshipOversize" classname="testing.StudentTest" time="0.0"/>
+  <testcase name="setCourseYear" classname="testing.StudentTest" time="0.001"/>
+  <testcase name="universityIsNull" classname="testing.StudentTest" time="0.001"/>
+  <testcase name="setUniversityName" classname="testing.StudentTest" time="0.0"/>
+  <testcase name="courseYearOversize" classname="testing.StudentTest" time="0.001"/>
+  <testcase name="scholarshipOversize" classname="testing.StudentTest" time="0.006"/>
   <testcase name="setSpecialization" classname="testing.StudentTest" time="0.0"/>
   <testcase name="scholarshipIsZero" classname="testing.StudentTest" time="0.001"/>
-  <testcase name="getUniversityName" classname="testing.StudentTest" time="0.0"/>
-  <testcase name="setScholarship" classname="testing.StudentTest" time="0.0"/>
+  <testcase name="getUniversityName" classname="testing.StudentTest" time="0.002"/>
+  <testcase name="setScholarship" classname="testing.StudentTest" time="0.002"/>
   <testcase name="getSpecialization" classname="testing.StudentTest" time="0.0"/>
-  <testcase name="specializationIsNull" classname="testing.StudentTest" time="0.0"/>
+  <testcase name="specializationIsNull" classname="testing.StudentTest" time="0.003"/>
   <testcase name="getScholarship" classname="testing.StudentTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
