@@ -23,7 +23,17 @@ public class PersonCreator {
         startMetrics();
         String methodName = Thread.currentThread().getStackTrace()[1].getMethodName();
 
-        Person p = new Person(fullName, age, phone, email, favMovie, city, street, profession, weightTable, hobbies);
+        Person p = new Person();
+        p.setFullName(fullName);
+        p.setAge(age);
+        p.setPhone(phone);
+        p.setEmail(email);
+        p.setFavouriteMovie(favMovie);
+        p.setCityName(city);
+        p.setStreetName(street);
+        p.setProfession(profession);
+        p.setWeightTable(weightTable);
+        p.setHobbies(hobbies);
 
         printMethodName(methodName);
         stopMetrics();
