@@ -1,22 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testing.WriterTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2017-11-11T21:42:54" hostname="brain" time="0.017">
+<testsuite name="testing.WriterTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-11-12T11:31:14" hostname="brain" time="0.003">
   <properties/>
-  <testcase name="salaryOversize" classname="testing.WriterTest" time="0.011"/>
-  <testcase name="setInspiredBy" classname="testing.WriterTest" time="0.0"/>
-  <testcase name="genreIsNull" classname="testing.WriterTest" time="0.0"/>
-  <testcase name="printProfession" classname="testing.WriterTest" time="0.001"/>
-  <testcase name="experienceIsNegative" classname="testing.WriterTest" time="0.001"/>
-  <testcase name="salaryIsZero" classname="testing.WriterTest" time="0.0"/>
-  <testcase name="experienceOversize" classname="testing.WriterTest" time="0.0"/>
-  <testcase name="setSalary" classname="testing.WriterTest" time="0.0"/>
-  <testcase name="getSalary" classname="testing.WriterTest" time="0.0"/>
-  <testcase name="setYearsOfExperience" classname="testing.WriterTest" time="0.0"/>
-  <testcase name="setGenre" classname="testing.WriterTest" time="0.0"/>
-  <testcase name="salaryIsNegative" classname="testing.WriterTest" time="0.0"/>
-  <testcase name="getYearsOfExperience" classname="testing.WriterTest" time="0.0"/>
-  <testcase name="getInspiredBy" classname="testing.WriterTest" time="0.0"/>
-  <testcase name="fieldInspiredByIsNull" classname="testing.WriterTest" time="0.001"/>
-  <testcase name="getGenre" classname="testing.WriterTest" time="0.0"/>
+  <testcase name="printProfession" classname="testing.WriterTest" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
+  <system-err><![CDATA[Nov 12, 2017 1:31:13 PM org.hibernate.validator.internal.util.Version <clinit>
+INFO: HV000001: Hibernate Validator 6.0.4.Final
+]]></system-err>
 </testsuite>

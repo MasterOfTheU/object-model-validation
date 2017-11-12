@@ -10,6 +10,8 @@ import javax.validation.Validation;
 import javax.validation.Validator;
 import javax.validation.ValidatorFactory;
 
+import java.io.ByteArrayOutputStream;
+import java.io.PrintStream;
 import java.lang.reflect.Field;
 import java.util.Set;
 
@@ -27,9 +29,12 @@ public class StudentTest {
 
     @Test
     public void printProfession() {
+        ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(outContent));
         Profession student = new Student();
+        student.printProfession();
         String expected = "This person is a Student.\n";
-        String actualResult = "This person is a " + student.getClass().getSimpleName() + ".\n";
+        String actualResult = outContent.toString();
         assertEquals(expected, actualResult);
     }
 

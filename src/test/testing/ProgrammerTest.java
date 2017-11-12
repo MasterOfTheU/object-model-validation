@@ -10,6 +10,8 @@ import javax.validation.ConstraintViolation;
 import javax.validation.Validation;
 import javax.validation.Validator;
 import javax.validation.ValidatorFactory;
+import java.io.ByteArrayOutputStream;
+import java.io.PrintStream;
 import java.lang.reflect.Field;
 import java.util.Set;
 
@@ -31,9 +33,12 @@ public class ProgrammerTest {
 
     @Test
     public void printProfession() {
+        ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(outContent));
         Profession programmer = new Programmer();
+        programmer.printProfession();
         String expected = "This person works as Programmer.\n";
-        String actualResult = "This person works as " + programmer.getClass().getSimpleName() + ".\n";
+        String actualResult = outContent.toString();
         assertEquals(expected, actualResult);
     }
 
