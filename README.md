@@ -7,7 +7,7 @@
 
 ## Person object model
 This model has 10 fields of different types. We have to use hibernate validator annotations to check the validity of those fields.
-![objmodel](https://user-images.githubusercontent.com/15348166/32693104-831422cc-c72d-11e7-803f-dceff1a1284a.PNG)
+![objmodel](https://user-images.githubusercontent.com/15348166/32693984-a25e3d1a-c73d-11e7-85b7-d8e5035d63a8.PNG)
 
 ## Object examples
 Created objects were converted to JSON format to provide a better understanding of model:
